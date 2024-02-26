@@ -1,0 +1,30 @@
+.color-fondo {
+    background-color: #ff8282;
+}
+
+.container {
+    height: 100px
+}
+
+.box1 {
+    background-color: #ffc5c5; 
+    display: flex;
+     justify-content: space-around; 
+     height: 250px;
+
+}
+.box2 {
+    background-color: #ffc5c5; 
+    display: flex;
+     justify-content: space-around; 
+     height: 200px;
+}
+
+#btn:hover{
+    background-color: aqua ;
+    cursor: pointer;
+}
+#ppt{
+    
+    cursor: pointer;
+}

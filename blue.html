@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>  
+    <main class="container-fluid color-fondo vh-100 p-5">
+        <h1 class="borde text-light text-center">PROYECTO CACHI-PUM</h1>
+<!--       <h2>Let's play Rock-Paper-Scissors</h2>
+        <p>1. Jugar cachipun con el usuario</p>
+        <p>2. Jugar varias veces con el usuario hasta que diga que no</p> -->
+        <div class=" box1 border border-white rounded p-4">
+                <div class="item1">
+                    <i class="fa fa-user-circle" aria-hidden="true"></i>
+                </div>
+                
+                <div class="item2 p-4">
+                    <img src="versus sin borde.png " width="150px" alt="versus">
+                    
+                </div>
+                <div class="item3">MAQUINA
+                </div>
+        </div>
+        <div class="box2 border border-white rounded-5 mt-5 p-4">
+            <div class="item1" id="piedra">
+                <img id="ppt" src="PIEDRA.png" alt="PIEDRA">
+            </div>
+            
+            <div class="item2" id="papel">
+                <img id="ppt" src="PAPEL.png" alt="papel">
+                
+            </div>
+            <div class="item3" id="tijera">
+                <img id="ppt" src="TIJERA.png" alt="tijera">
+            </div>
+        </div>
+        <div class=" h-20 mt-4 d-flex justify-content-around">
+            <button type="button" id="btn" class="btn btn-success btn-lg border p-2 mt-4">JUGAR</button>
+        </div>
+
+
+    </main>
+    <!-- 
+    <script>
+        while (true)  {
+        const jugada_usuario = prompt("Elija\n1: Piedra\n2: Papel\n3: Tijeras\n0: Terminar")
+        const jugada_cpu = Math.ceil(Math.random() * 3)
+                
+        console.log("El usuario jugó " + jugada_usuario);
+        console.log("La CPU jugó " + jugada_cpu);
+
+        if(jugada_usuario == 1)
+        {
+            if(jugada_cpu == 1){
+                console.log("Empate!")
+            }
+            else if(jugada_cpu == 2){
+                console.log("Perdiste!")
+            }
+            else if(jugada_cpu == 3){
+                console.log("Ganaste!")
+            }
+        }
+        else if(jugada_usuario == 2){
+            if(jugada_cpu == 1){
+                console.log("Ganaste!")
+            }
+            else if(jugada_cpu == 2){
+                console.log("Empate!")
+            }
+            else if(jugada_cpu == 3){
+                console.log("Perdiste!")
+            }
+        }
+        else if(jugada_usuario == 3){
+            if(jugada_cpu == 1){
+                console.log("Perdiste!")
+            }
+            else if(jugada_cpu == 2){
+                console.log("Ganaste!")
+            }
+            else if(jugada_cpu == 3){
+                console.log("Empate!")
+            }
+            }
+            else if (jugada_usuario == 0) {
+                break
+            }
+        else
+        {
+            console.log("¿Por qué, amigo?");
+        }
+        }
+    </script>
+    -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</body>
+</html>
